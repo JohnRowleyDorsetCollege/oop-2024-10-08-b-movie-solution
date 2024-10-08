@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopExamPrep01.Domain", "Oop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopExamPrep01.Tests", "OopExamPrep01.Tests\OopExamPrep01.Tests.csproj", "{8A27B1D2-114A-42FA-8851-B328C9F0DA8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightBall.Console", "EightBall.Console\EightBall.Console.csproj", "{D11224DF-5BDF-4A57-A4F1-14B7DCFA0305}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8A27B1D2-114A-42FA-8851-B328C9F0DA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A27B1D2-114A-42FA-8851-B328C9F0DA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A27B1D2-114A-42FA-8851-B328C9F0DA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D11224DF-5BDF-4A57-A4F1-14B7DCFA0305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11224DF-5BDF-4A57-A4F1-14B7DCFA0305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11224DF-5BDF-4A57-A4F1-14B7DCFA0305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11224DF-5BDF-4A57-A4F1-14B7DCFA0305}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
