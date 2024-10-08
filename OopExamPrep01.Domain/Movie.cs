@@ -24,9 +24,10 @@
             List<string> validRatings = new() { "G", "PG", "PG-13", "R", "NC_17" };
            
             //Check this is a valid rating and if it is assign it
-            if (validRatings.Contains(_rating))
+            // Change incoming rating to UPPERCASE to ensure it matches 
+            if (validRatings.Contains(_rating.ToUpper()))
             {
-                Rating = _rating;
+                Rating = _rating.ToUpper(); // this must be changted as well to validate the tests
             } else
             {
                 throw new InvalidDataException();
